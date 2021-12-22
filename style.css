@@ -1,0 +1,111 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  margin: 0;
+}
+
+#top {
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -3;
+  right: 55%;
+  bottom: 30%;
+}
+
+#bottom {
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: -3;
+  left: 45%;
+  top: 50%;
+}
+.total {
+  float: left;
+  display: block;
+  height: 420px;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: 585px;
+  margin-right: auto;
+  width: 350px;
+}
+
+.deasupra {
+  background-image: url("images/bg-pattern-card.svg");
+  height: 117px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main {
+  width: 350px;
+  height: 330px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: white;
+}
+
+#victor {
+  margin-top: -50px;
+  margin-left: 123px;
+  margin-right: 132px;
+  border-radius: 50px;
+  border: 4px solid white;
+}
+
+.footer {
+  height: 90px;
+  width: 350px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+  margin-top: -18px;
+}
+
+h1, p.np, p.ldn {
+  text-align: center;
+}
+
+h1 {
+  font-size: 16px;
+  font-family: "Kumbh";
+}
+
+#np {
+  font-family: "Kumb Sans";
+  color: hsl(0, 0%, 59%);
+  font-size: 18px;
+}
+strong {
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.ldn {
+  font-family: "Kumb Sans";
+  color: hsl(0, 0%, 59%);
+  border-bottom: 1px solid black;
+  padding-bottom: 75px;
+  font-size: 18px;
+}
+
+#footer_title{
+  word-spacing: 75px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+#footer_text {
+  word-spacing: 65px;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.punct {
+  color: white;
+}
+
+/*-----------------------------------------FINISHED 13.07.2021----------------------------------------------------------------*/
